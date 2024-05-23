@@ -2,12 +2,12 @@
 
 <template>
   <header>
-    <router-link to="/">main</router-link>
-    <router-link to="fantasy">fantasy</router-link>
-    <router-link to="royale">royale</router-link>
-    <router-link to="rpg">rpg</router-link>
-    <router-link to="shooter">shooter</router-link>
-    <router-link to="strategy">strategy</router-link>
+    <router-link :to="{ name: 'main'}">main</router-link>
+    <router-link :to="{ name: 'fantasy'}">fantasy</router-link>
+    <router-link :to="{ name: 'royale'}">royale</router-link>
+    <router-link :to="{ name: 'rpg'}">rpg</router-link>
+    <router-link :to="{ name: 'shooter'}">shooter</router-link>
+    <router-link :to="{ name: 'strategy'}">strategy</router-link>
   </header>
 </template>
 
